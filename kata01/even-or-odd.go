@@ -1,4 +1,8 @@
+// 8 kyu
+
 package main
+
+import "fmt"
 
 // type Node struct {
 // 	key  int
@@ -31,4 +35,9 @@ func EvenOrOdd(number int) string {
 
 func EvenOrOddBitwise(number int) string {
 	return []string{"Even", "Odd"}[number&1]
+}
+
+func SplitStrings(str string) []string {
+	fmt.Println(len(str))
+	return []string{"asd", "asd"}
 }
