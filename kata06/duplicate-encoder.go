@@ -1,3 +1,4 @@
+// 6 kyu
 package main
 
 import (
